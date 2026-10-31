@@ -1,8 +1,9 @@
 # Dependencies
 node_modules/
 
-# Build output
+# Build output (ignored for CI/CD builds via GitHub Actions)
 dist/
+!dist/.gitkeep
 
 # Logs
 *.log
