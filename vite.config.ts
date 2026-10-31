@@ -4,6 +4,7 @@ import { fileURLToPath, URL } from 'node:url';
 
 // `BASE_PATH` lets the same codebase ship to GitHub Pages (`/snaptext/`)
 // and to a root-domain host (Cloudflare Pages, custom domain, local preview).
+// The Pages workflow sets BASE_PATH=/snaptext/; local dev uses the default '/'.
 const basePath = (process.env.BASE_PATH ?? '/') as string;
 
 export default defineConfig({
