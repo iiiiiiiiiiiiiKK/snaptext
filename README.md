@@ -28,9 +28,9 @@
 
 ## 在线演示
 
-<https://snaptext.iiiiiiiiiiiiiKK.pages.dev/>
+<https://iiiiiiiiiiiiikk.github.io/snaptext/>
 
-> 演示站点托管在 Cloudflare Pages，使用 GitHub Actions 自动构建部署。
+> 演示站点托管在 GitHub Pages，由 GitHub Actions 自动构建部署（`BASE_PATH=/snaptext/`）。
 
 ---
 
